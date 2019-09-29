@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/SpaceXAPI
+/SpaceXAPI.Converters/obj
+/SpaceXAPI.Converters
+/SpaceXAPI.Data/bin/Debug/netstandard2.0
+/SpaceXAPI.Data/obj
+/SpaceXAPI.Infrastructure/bin
+/SpaceXAPI.Infrastructure/obj
+/SpaceXAPI.Interfaces/bin
+/SpaceXAPI.Interfaces/obj
+/SpaceXAPI.Launchpad/bin
+/SpaceXAPI.Launchpad/obj
+/SpaceXAPI.Models/bin/Release/netstandard2.0
+/SpaceXAPI.Models/obj
+/SpaceXAPI.Tests/bin/Debug/netstandard2.0
+/SpaceXAPI.Tests/obj

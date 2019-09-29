@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceXAPI.Launchpad", "SpaceXAPI.Launchpad\SpaceXAPI.Launchpad.csproj", "{445C48DB-66B4-431A-9AFA-AA52B55803E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceXAPI.Core", "SpaceXAPI.Interfaces\SpaceXAPI.Core.csproj", "{60F00C1E-DB3C-422E-94D1-AB80FF6BF9C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceXAPI.Tests", "SpaceXAPI.Tests\SpaceXAPI.Tests.csproj", "{C90F2A01-2801-44DD-9A89-29629E8E2303}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceXAPI.Infrastructure", "SpaceXAPI.Infrastructure\SpaceXAPI.Infrastructure.csproj", "{6960BA5F-A16D-4F57-A0D3-53E299F7B4DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceXAPI.Data", "SpaceXAPI.Data\SpaceXAPI.Data.csproj", "{81CF8B0C-E682-4CF1-818D-95498B3192F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{445C48DB-66B4-431A-9AFA-AA52B55803E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445C48DB-66B4-431A-9AFA-AA52B55803E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445C48DB-66B4-431A-9AFA-AA52B55803E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445C48DB-66B4-431A-9AFA-AA52B55803E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F00C1E-DB3C-422E-94D1-AB80FF6BF9C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F00C1E-DB3C-422E-94D1-AB80FF6BF9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F00C1E-DB3C-422E-94D1-AB80FF6BF9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F00C1E-DB3C-422E-94D1-AB80FF6BF9C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C90F2A01-2801-44DD-9A89-29629E8E2303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90F2A01-2801-44DD-9A89-29629E8E2303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90F2A01-2801-44DD-9A89-29629E8E2303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90F2A01-2801-44DD-9A89-29629E8E2303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6960BA5F-A16D-4F57-A0D3-53E299F7B4DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6960BA5F-A16D-4F57-A0D3-53E299F7B4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6960BA5F-A16D-4F57-A0D3-53E299F7B4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6960BA5F-A16D-4F57-A0D3-53E299F7B4DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81CF8B0C-E682-4CF1-818D-95498B3192F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81CF8B0C-E682-4CF1-818D-95498B3192F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81CF8B0C-E682-4CF1-818D-95498B3192F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81CF8B0C-E682-4CF1-818D-95498B3192F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E22F940D-9999-4225-B65E-1B04D08BCDA4}
+	EndGlobalSection
+EndGlobal

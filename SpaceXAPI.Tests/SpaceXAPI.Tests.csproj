@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FakeItEasy" Version="5.2.0" />
+    <PackageReference Include="NUnit" Version="3.12.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SpaceXAPI.Interfaces\SpaceXAPI.Core.csproj" />
+  </ItemGroup>
+
+</Project>
