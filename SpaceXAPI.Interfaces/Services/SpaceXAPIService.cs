@@ -1,11 +1,7 @@
 ﻿using SpaceXAPI.Interfaces;
 using SpaceXAPI.Models;
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using System.Net;
-using Microsoft.Extensions.Options;
-using SpaceXAPI.Core.Models;
 using System.Net.Http;
 using Newtonsoft.Json;
 
@@ -14,17 +10,15 @@ namespace SpaceXAPI.Core.Services
     public class SpaceXAPIService : ISpaceXAPIService
     {
         private readonly HttpClient _client;
-        private readonly SpaceXAPIData clientData;
 
-        public SpaceXAPIService(IOptions<SpaceXAPIData> options)
+        public SpaceXAPIService(HttpClient client)
         {
-            clientData = options.Value;
-            _client = new HttpClient();
+            _client = client;
         }
 
         public async Task<ICollection<Launchpad>> GetLaunchpads()
         {
-            var response = await _client.GetAsync(new Uri(clientData.URL));
+            var response = await _client.GetAsync("/v2/launchpads");
 
             response.EnsureSuccessStatusCode();
 
